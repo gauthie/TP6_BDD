@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         tv.setText("Il y a [" + planetes.size() + "] Planètes dans la base de données" );
                         for (int i =0; i< planetes.size();i++) {
-                            Toast.makeText(MainActivity.this, "Planete = " + planetes.get(i).getNom(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Planete = " + planetes.get(i).getNom() + "\nTaille = " + planetes.get(i).getTaille(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
