@@ -65,15 +65,15 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Planete> planetes = new ArrayList<>();
 
-        planetes.add(new Planete(1,"Mercure","4900"));
-        planetes.add(new Planete(2,"Venus","12000"));
-        planetes.add(new Planete(3,"Terre","12800"));
-        planetes.add(new Planete(4,"Mars","6800"));
-        planetes.add(new Planete(5,"Jupiter","144000"));
-        planetes.add(new Planete(6,"Saturne","120000"));
-        planetes.add(new Planete(7,"Uranus","52000"));
-        planetes.add(new Planete(8,"Neptune","50000"));
-        planetes.add(new Planete(9,"Pluton","2300"));
+        planetes.add(new Planete(1,"Mercure",4900));
+        planetes.add(new Planete(2,"Venus",12000));
+        planetes.add(new Planete(3,"Terre",12800));
+        planetes.add(new Planete(4,"Mars",6800));
+        planetes.add(new Planete(5,"Jupiter",144000));
+        planetes.add(new Planete(6,"Saturne",120000));
+        planetes.add(new Planete(7,"Uranus",52000));
+        planetes.add(new Planete(8,"Neptune",50000));
+        planetes.add(new Planete(9,"Pluton",2300));
 
         for (int index = 0; index < planetes.size(); index++) {
             Planete planete = planetes.get(index);
